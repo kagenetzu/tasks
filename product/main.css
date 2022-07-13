@@ -118,7 +118,7 @@ body{
     height: 48px;
     line-height: 48px;
     font-size: 13px;
-    font-weight: 600;
+    font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 0.65px;
     min-width: 240px;
@@ -142,10 +142,93 @@ body{
     line-height: 1.385;
     
 }
+.product_share{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    text-transform: uppercase;
+    align-items: center;
+}
 
+.product_share-list {
+  display: flex;
+  
+}
+.product_share-list a{
+   margin: 0 0 0 13px;
+   background: url(./images/icons/elipse.png) no-repeat;
+   padding: 10px;
+   width: 10px;
+   background-position: center center;
+   text-align: center;
+   justify-content: center;
+  }
+
+.product_share-count{
+    margin: 0 0 0 20px;
+    padding: 10px;
+    background-color: #efefef;
+    position: relative;
+}
+.product_share-count::after{
+    
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: -6px;
+    transform: translate(0, -50%);
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-right:7px solid #efefef ;
+    border-bottom:7px solid transparent ;
+}
+.product_preview{
+    display: flex;
+    flex-wrap: wrap;
+}
+.product_gallery{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 500px;
+    margin-left: 25px;
+}
+.product_gallery-item{
+    width: 90px;
+    height: 130px;
+    
+}
+.product_gallery-item + .product_gallery-item{
+    margin-top: 30px;
+}
+.product_show{
+
+    width: 340px;
+    height: 492px;
+    margin-left: 40px;
+}
+
+.next{
+
+    margin: 20px 0 0 20px;
+    border: 1px solid rgb(222, 222, 222);
+    width: 20px;
+    height: 10px;
+    padding: 10px;
+    text-align: center;
+    
+
+}
 
   
-  
+
+
+
+
   
   
   
